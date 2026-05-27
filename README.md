@@ -23,10 +23,13 @@ Compatible with:
 ## Tools
 
 - create_clips
+- create_clips_advanced
 - create_clips_and_wait
+- wait_for_project_completion
 - query_project
+- edit_short_video
 - publish_video
-- generate_caption
+- generate_social_caption
 - viral_pipeline
 
 ## LobeHub
