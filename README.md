@@ -4,10 +4,12 @@ AI video clipping and publishing MCP server powered by Vizard.ai.
 
 Compatible with:
 
-- Hermes
+- Hermes Agent
 - Claude Desktop
 - LobeHub
 - Cursor
+- OpenClaw
+- Cline
 
 ---
 
