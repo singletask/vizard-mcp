@@ -1,0 +1,60 @@
+{
+  "name": "vizard-mcp",
+  "version": "1.0.0",
+  "description": "AI-powered video clipping, subtitle editing, social publishing, and viral short-form automation for YouTube, TikTok, Instagram, and LinkedIn.",
+
+  "runtime": {
+    "type": "python",
+    "entry": "server.py",
+    "python_version": ">=3.10"
+  },
+  "transport": { "type": "stdio" },
+
+  "env": [
+    {
+      "name": "VIZARD_API_KEY",
+      "required": true,
+      "secret": true,
+      "description": "Vizard AI API Key"
+    }
+  ],
+
+  "tools": [
+    {
+      "name": "create_clips",
+      "description": "Create AI viral clips from long-form video"
+    },
+    {
+      "name": "create_clips_advanced",
+      "description": "Create AI viral clips from long-form video with advanced options (e.g. hook generation, B-roll insertion)"
+    },
+    {
+      "name": "create_clips_and_wait",
+      "description": "Create AI viral clips and wait for completion (for longer videos or more clips)"
+    },
+    {
+      "name": "wait_for_project_completion",
+      "description": "Wait for a project to complete (for longer videos or more clips)"
+    },
+    {
+      "name": "query_project",
+      "description": "Query the status of a project"
+    },  
+    {
+      "name": "edit_short_video",
+      "description": "Enhance short video with subtitles, B-roll, and hooks"
+    },
+    {
+      "name": "viral_pipeline",
+      "description": "Complete workflow: video -> clips -> viral ranking"
+    },
+    {
+      "name": "generate_social_caption",
+      "description": "Generate AI social captions and hashtags"
+    },
+    {
+      "name": "publish_video",
+      "description": "Publish clips to social media platforms"
+    }
+  ]
+}
